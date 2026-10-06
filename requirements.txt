@@ -1,0 +1,34 @@
+# Backend
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+langgraph>=0.2.60
+langchain-core>=0.3
+langchain-openai>=0.2
+langchain-anthropic>=0.3
+langchain-google-genai>=2.0
+# GCP discovery (SDKs oficiales)
+google-auth>=2.30
+google-cloud-resource-manager>=1.12
+google-cloud-storage>=2.18
+google-cloud-compute>=1.19
+google-cloud-iam>=2.15
+google-cloud-monitoring>=2.22
+google-cloud-asset>=3.26
+google-cloud-billing>=1.13
+google-cloud-billing-budgets>=1.14
+google-cloud-bigquery>=3.25
+google-cloud-bigquery-datatransfer>=3.15
+google-cloud-dataflow-client>=0.8
+google-cloud-dataproc>=5.10
+pyyaml>=6.0
+# Frontend
+streamlit>=1.46
+requests>=2.32
+pandas>=2.2
+plotly>=5.22
+pyvis>=0.3.2
+diagrams>=0.23   # íconos oficiales de GCP para los diagramas (no requiere Graphviz)
+# Dev
+pytest>=8.0
+httpx>=0.27
